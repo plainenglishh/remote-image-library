@@ -1,1 +1,1 @@
-{"name":"remote_img","className":"ModuleScript","filePaths":["src\\init.luau","default.project.json"],"children":[{"name":"png","className":"ModuleScript","filePaths":["src\\png.luau"]}]}
+{"name":"remote_img","className":"ModuleScript","filePaths":["src\\init.luau","default.project.json"],"children":[{"name":"png","className":"ModuleScript","filePaths":["src\\png.luau"]},{"name":"roblox_png_library_licence","className":"StringValue","filePaths":["src\\roblox_png_library_licence.txt"]}]}
