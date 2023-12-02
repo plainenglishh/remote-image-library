@@ -16,7 +16,7 @@
 --
 --------------------------------------------------------------------------------
 
-local VERSION = "v1.0.0";
+local VERSION = "v1.0.1";
 local HTTP_QUEUE_REQUESTS_PER_SEC = 2;
 local PRINT_LEADER = "[Remote-Image-Library]: ";
 
