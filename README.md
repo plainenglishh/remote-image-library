@@ -1,7 +1,5 @@
 # Remote Image Library
-Remote Image Library is a Luau library designed to generate EditableImage instances from PNG files. PNG files are provided to the script through a HTTP GET request.
-Remote Image Library makes it possible to off-site images  
-
+Remote Image Library is a Luau library designed to generate EditableImage instances from PNG files from remote URLs, binary strings and pixel arrays.
 
 The EditableImage instance can be parented to a MeshPart, ImageLabel, ImageButton and Decal to replace its image. For more details on the EditableImage class, visit https://create.roblox.com/docs/reference/engine/classes/EditableImage.
 
