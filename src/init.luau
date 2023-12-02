@@ -12,6 +12,7 @@
 --
 --------------------------------------------------------------------------------
 
+local VERSION = "v1.0.0";
 local HTTP_QUEUE_REQUESTS_PER_SEC = 2;
 local PRINT_LEADER = "[Remote-Image-Library]: ";
 
@@ -295,5 +296,6 @@ return {
 	create_image_from_array = create_image_from_array,
 	create_image_from_string = create_image_from_string,
 	builtin = builtin,
-	http_get_async = http_get_async
+	http_get_async = http_get_async,
+	version = VERSION
 }

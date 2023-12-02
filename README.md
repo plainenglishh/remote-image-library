@@ -10,6 +10,8 @@ The EditableImage instance can be parented to a MeshPart, ImageLabel, ImageButto
 - [2. Usage](#2-usage)
     - [2.1. Server Usage](#21-server-usage)
     - [2.2. Server Usage](#22-client-usage)
+    - [2.3. Server Usage](#23-result)
+    - [2.2. Overloading http_get_async](#24-overloading-http_get_async)
 - [3. Attributions](#3-attributions)
 - [4. Installation](#4-installation)
     - [4.1. Embedding Into a Rojo Project](#41-embedding-into-a-rojo-project)
@@ -70,6 +72,16 @@ editable_image.Parent = spawn_location:WaitForChild("Decal");
 
 ### 2.3. Result
 ![image](./preview.png)
+
+### 2.4. Overriding http_get_async
+To use a custom http_get function, set the _G.REMOTE_IMG_CUSTOM_GET function to your own implementation. The API should match the original, see API Reference below.
+```lua
+_G.REMOTE_IMG_CUSTOM_GET = function(url : string) : string
+    print(url, "requested.");
+end
+```
+> [!TIP]
+> This will *not* replace the original function meaning you can use it in your override.
 
 ## 3. Attributions
 This library relies upon MaximumADHD's [Roblox-PNG-Library](https://github.com/MaximumADHD/Roblox-PNG-Library/tree/master) to get pixel data from PNG files.
