@@ -1,0 +1,6 @@
+dependencies = ["plainenglishh/remote-image-library"]
+description = ""
+main = "./src/init.lua"
+name = "remote-image-library"
+owner = "plainenglish"
+version = "1.0.2"
